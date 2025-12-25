@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Educational Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #007acc;
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        nav {
+            background-color: #005f99;
+            padding: 10px 40px;
+        }
+
+        nav a {
+            color: white;
+            margin-right: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section:nth-child(even) {
+            background-color: #e9f1fb;
+        }
+
+        h2 {
+            color: #007acc;
+            margin-top: 0;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 18px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007acc;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background-color: #005f99;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Demo Educational Website</h1>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#lessons">Lessons</a>
+    <a href="#resources">Resources</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About This Site</h2>
+    <p>Welcome to this demo site! This website is built purely for educational purposes to demonstrate HTML structure, CSS styling, and basic page layout. It includes multiple sections, navigation, and styled components to make learning web design easier.</p>
+    <div class="card">
+        <h3>Learning Goal</h3>
+        <p>Understand how to structure a web page with HTML, style it using CSS, and create a simple, responsive layout. Experiment with colors, spacing, and typography to see how design affects readability and user experience.</p>
+    </div>
+</section>
+
+<section id="lessons">
+    <h2>Lessons</h2>
+    <div class="card">
+        <h3>Lesson 1: HTML Basics</h3>
+        <p>Learn about HTML tags, elements, headings, paragraphs, links, and images. HTML is the backbone of any website, and mastering it is the first step toward becoming a web developer.</p>
+        <a href="#" class="button">Start Lesson</a>
+    </div>
+    <div class="card">
+        <h3>Lesson 2: CSS Styling</h3>
+        <p>Learn how to style your web page with CSS. Control colors, fonts, spacing, layouts, and visual effects to make your content look appealing and professional.</p>
+        <a href="#" class="button">Start Lesson</a>
+    </div>
+    <div class="card">
+        <h3>Lesson 3: Responsive Design</h3>
+        <p>Learn how to make your web pages look great on any device. Responsive design ensures that your layout adjusts to different screen sizes, from phones to large desktops.</p>
+        <a href="#" class="button">Start Lesson</a>
+    </div>
+</section>
+
+<section id="resources">
+    <h2>Resources</h2>
+    <p>Here are some useful resources for learning web development:</p>
+    <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank">MDN Web Docs</a></li>
+        <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+        <li><a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a></li>
+        <li><a href="https://css-tricks.com/" target="_blank">CSS-Tricks</a></li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>If you have any questions or feedback about this demo site, feel free to reach out via email or social media.</p>
+    <div class="card">
+        <p>Email: <a href="mailto:demo@example.com">demo@example.com</a></p>
+        <p>Twitter: <a href="https://twitter.com/" target="_blank">@DemoEdu</a></p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Demo Educational Site. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
